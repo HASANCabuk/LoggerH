@@ -1,0 +1,22 @@
+{
+  "name": "loggerh",
+  "version": "1.0.5",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": " nodemon mocha -R spec -u tdd tests/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
